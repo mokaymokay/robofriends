@@ -31,7 +31,7 @@ class App extends Component {
     // display if JSON file takes too long to load
     return !robots.length ?
       <h1>Loading...</h1> :
-     (
+      (
         <div className="tc">
           <h1>RoboFriends</h1>
           <SearchBox searchChange={this.onSearchChange}/>
